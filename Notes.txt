@@ -1,0 +1,76 @@
+https://www.youtube.com/watch?v=-6xGHdkwx_M&list=PL78RhpUUKSwfeSOOwfE9x6l5jTjn5LbY3&index=16
+
+/*MAK_07_DEC_2024*/  
+---------------------------
+//Last Updated : 01-DEC-2024 
+---------------------------
+
+WEB APP
+-----------------
+BACKEND (Node.JS)
+-----------------
+1: Installation
+   -npm init   (create a file named "package.json") 
+   -npm i -D nodemon (Install nodemon as Dev Dependency) 
+   -npm i -D prettier (Create a file named as ".prettierrc")
+
+2: Folder/File Structure  
+    -index.js (usually db connection is here)
+    -app.js (configuration, cookies)
+    -constants.js (globle enum & constants)
+    -Src
+	--DB
+	--Models (Data Structure, Schema) (ORM/ODM)
+	--Controllers (Functions, Metheds, Functionality)
+	--Routes      ()
+	--Middlewares  ()
+	--Utils       
+	--Test
+	--More (depends)	
+
+
+
+
+
+--------------------------------------------------------------------
+d-(index.html, package.json, .env, .env.sample, .gitignore, tailwind.config.js, vite.config.js, postcss.config.js)
+d-logo.jsx
+
+Shadcn.ui (Recomended by HC) 
+
+Web Links (Importants)
+----------------------
+https://stackoverflow.com/questions/30356148/how-can-i-use-a-single-mssql-connection-pool-across-several-routes-in-an-express
+https://stackoverflow.com/questions/52434352/nodejs-mssql-global-connection
+https://github.com/tediousjs/node-mssql/issues/894
+https://ravindradevrani.medium.com/node-js-rest-api-crud-with-mssql-and-sequelize-746381585043
+https://www.npmjs.com/package/mssql
+https://en1.savefrom.net/1-youtube-video-downloader-3vV/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+d-(index.html, package.json, .env, .env.sample, .gitignore, tailwind.config.js, vite.config.js, postcss.config.js)
+d-logo.jsx
+
+Shadcn.ui (Recomended by HC) 
+
+
+
