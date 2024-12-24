@@ -1,7 +1,7 @@
 git init
 git add .
-git config --global user.name "AamirKhan"
-git config --global user.email someemail@gmail.com
+git config --global user.name "SomeName"
+git config --global user.email "someemail@gmail.com"
 
 git branch -M main
 git remote add origin GitURL
