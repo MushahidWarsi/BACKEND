@@ -1,4 +1,4 @@
-//Updated At: 21-DEC-2024 
+//Updated At: 26-DEC-2024 
 
 import { Router } from 'express';
 import {
@@ -12,14 +12,10 @@ import {
 
 import { verifyJWT } from "../middlewares/auth.middleware.js";
 
-//import { verifyJWT } from "../middlewares/auth.middleware.js"; //It will be on later
-
 const router = Router();
-
 
 //open routes
 router.route("/login").post(loginUser)
-
 
 //secured routes
 router.route("/all").get(verifyJWT, getAll)               //Get all records

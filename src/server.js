@@ -1,11 +1,10 @@
-//Updated At: 21-DEC-2024 
+//Updated At: 26-DEC-2024 
 
 import 'dotenv/config';  //using ES6 Style ////import dotenv from "dotenv";  //dotenv.config({    path: './.env'}); ////dotenv.config();
 
 import connectDB from "./db/connectDB.js";
 
 import {app} from './app.js'
-
 
 
 

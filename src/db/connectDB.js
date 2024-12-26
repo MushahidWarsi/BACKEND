@@ -1,7 +1,7 @@
-//Last Updated: 21-DEC-2024 
+//Last Updated: 26-DEC-2024 
 
 import mssql from "mssql";
-import dbconfig from "./dbconfig.js"  
+import dbConfig from "./dbConfig.js"  
 
 let poolPromise = null;
 
@@ -11,7 +11,7 @@ const connectDB = async () => {
         //const connectionInstance = await mssql.connect('Server=localhost,1433;Database=AL_Accounts;User Id=sql;Password=sql2014;Encrypt=false')
         
         //const connectionInstance = await mssql.connect(dbconfig);// Dont Delete 
-        poolPromise = await new mssql.ConnectionPool(dbconfig).connect();
+        poolPromise = await new mssql.ConnectionPool(dbConfig).connect();
 
         console.log(`Database Connected Successfully.`); //${poolPromise.available} //console.log(`\n Database connected successfully. DB HOST: ${connectionInstance.connection.host}`);
         

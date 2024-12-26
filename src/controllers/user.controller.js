@@ -1,4 +1,4 @@
-//Last Updated : 21-DEC-2024 
+//Last Updated : 26-DEC-2024 
 
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { ApiError } from "../utils/ApiError.js"
@@ -205,7 +205,7 @@ const saveRecord = asyncHandler(async(req, res) => {
     //console.log(RecordToUpdate);
     //const saveRecord = await User.save(RecordToUpdate);
 
-        const { UserID, UserName, Password, IsActive, BranchCode } = req.body;
+        const { UserID, UserName, Password, IsActive } = req.body;
         
         ////Validation
         // if (
@@ -222,7 +222,7 @@ const saveRecord = asyncHandler(async(req, res) => {
             UserName,
             Password, 
             IsActive: IsActive || true,
-            BranchCode: "001" || "",
+            //BranchCode: "001" || "",
             DefinitionDate: new Date().toLocaleDateString('en-US') //Date.now() //"01 DEC 2024" // = new Date() //date.toLocaleDateString('en-US')
             //// DefinitionDate: Date.now().toLocaleDateString('en-US') //Date.now() //"01 DEC 2024" // = new Date() //date.toLocaleDateString('en-US')
             //// new Date(year, month, date, hours, minutes, seconds, ms)
